@@ -1,0 +1,31 @@
+
+
+select#schema {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    border: 1px solid darkgray;
+    outline: none;
+}
+.sub_dropdown {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+div .colored-circle {
+    display: inline-block;
+    margin-left: 5px;
+    /* margin-right: 5px; */
+    margin-bottom: -2px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: transparent;
+  padding: 5px;
+  }
+
+  .remove_dropdown button{
+    background-color: #F2FBF9;
+    border: 1px solid #F2FBF9;
+    padding: 6px 8px;
+  }

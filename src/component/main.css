@@ -1,0 +1,136 @@
+header{
+    display: flex;
+    background-color:#39AEBC;
+    height: 80px;
+    align-items: center;
+}
+
+header .heading{
+    padding: 1%;
+    margin: 0;
+    font-size: 18px;
+    color: white;
+    
+}
+header span{
+    color: white;
+    padding: 1%;
+    font-size: 20px;
+    padding-right: 0;
+}
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    margin-left: 15px;
+    margin-top: 3px;
+  }
+.innerbody{
+padding: 2rem;}
+
+.user span {
+    position: absolute;
+    /* font-weight: 800; */
+    font-size: 90px;
+    color: #5DDB78;
+    bottom: -18px;
+    left: -19px;
+    /* width: 50px; */
+    /* height: 200%; */
+    /* padding: 20px; */
+}
+
+.group span {
+    position: absolute;
+    /* font-weight: 800; */
+    font-size: 90px;
+    color: red;
+    bottom: -18px;
+    left: -19px;
+    /* width: 50px; */
+    /* height: 200%; */
+    /* padding: 20px; */
+}
+.traits {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    margin: 30px 0;
+}
+
+.user,.group {
+    position: relative;
+}
+
+.boxdropdown {
+    /* width: 100%; */
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+    margin-top: 20px !important;
+    border: 2px solid skyblue;
+    padding: 3% 2%;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.maindropdown{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px !important;
+    padding: 0 2%;
+}
+.addingschema{
+    width: fit-content;
+    margin: auto;
+}
+.segmentname input {
+    border: 1px solid gray;
+    width: 98%;
+    outline: none;
+    padding: 8px;
+}
+
+footer {
+    display: flex;
+    height: 40px;
+    background: lightgray;
+    padding: 25px;
+}
+
+.actionbutton {
+    display: flex;
+    /* padding: 2%; */
+    align-items: center;
+    gap: 10px;
+}
+
+.actionbutton button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    white-space: nowrap;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.addingschema p{
+    color: rgb(105, 195, 169);
+    padding: 5px;
+    border-bottom: 1px solid rgb(105, 195, 169);
+}
+
+@media only screen and (min-width: 1200px){
+.boxdropdown, .maindropdown{
+    width: 50%;
+    margin: auto;
+}
+.addingschema{
+    margin: auto;
+}
+.segmentname input{
+    width: 40%;
+}
+}
